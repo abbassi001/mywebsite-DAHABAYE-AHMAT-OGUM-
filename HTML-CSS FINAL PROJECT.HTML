@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PAGE 1</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="x-icon" href="C:\Users\Ogoum Dahabaye Ahmat\Desktop\ASSIGMENT2, OGOUM DAHABAYE\Ogoum Dahabaye.JPG">
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("backgroundpic2.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: darkslategray;
+
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    margin-top: 45px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: 2px;
+    margin-left: 15px;
+    color: black;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.content h1{
+    font-family:'Times New Roman';
+    font-size: 40px;
+    padding-left: 10px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin: 15px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3 ease;
+}
+.cn:hover{
+    background-color: white;
+}
+.content span{
+    color: orange;
+    font-size: 40px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: black;
+    position: absolute;
+    top: 20px;
+    left: 435px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 0;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn2{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 15pxs;
+    color: white;
+    transition: 0.4s ease;
+}
+.btn2:hover{
+    background: white;
+    color: orange;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.link{
+    background-color: black;
+    color: white;
+}
+.form link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    height: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+}
+.icon2{
+    text-decoration: none;
+    background: lightblue;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.section{
+    right: 500px;
+    position: absolute;
+    top: 5px;
+}
+.img1{
+        width: 270px;
+        height: 180px;
+        margin: 0;
+        margin-left: -25px;
+        border-radius: 15px;
+    }
+    .img2{
+        width: 270px;
+        height: 180px;
+        margin: 0;
+        margin-left: -25px;
+        border-radius: 15px;
+    }
+.sect2{
+    float: left;
+    margin-top: -380px;
+}
+.div2{
+        background-color: lightblue;
+        text-align: center;
+        margin-top: 345px;
+        padding: 10px;
+    }
+
+</style>
+</head>
+<body>
+    <div>
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Dh.DecoEvent</h2>
+            </div>
+        
+
+          <div class="menu">
+             <ul>
+                 <li><a href="HTML-CSS FINAL PROJECT.HTML">HOME</a></li>
+                 <li><a href="HTML-CSS FINAL PROJECT 2.HTML">ABOUT</a></li>
+                 <li><a href="HTML-CSS FINAL PROJECT 3.HTML">OurSERVICE</a></li>
+                 <li><a href="HTML-CSS FINAL PROJECT 4.HTML">CONTACTus</a></li>
+                 <li><a href="ASSIGNMENT2.Ogoum Dahabaye.HTML">Assg2</a></li>
+                 <li><a href="ASSIGNMENT3-O.Dahabaye.HTML">Assg3</a></li>
+                 <li><a href="ASSIGNMENT4(Ogoum Dahabaye).HTML">Assg4</a></li>
+                 <li><a href="ASSIGNMENT5-p1(Ogoum).HTML">Assg5</a></li>
+                 <li><a href="ASSIGNMENT6-Ogoum Dahabaye.HTML">assg6</a></li>
+              </ul>
+          </div>
+          <div class="search">
+              <input class="srch" type="search" name="" placeholder="Type To Text">
+              <a href="#"><button class="btn">SEARCH</button></a> <br><br><br><br>
+
+     <div>
+        <section class="sect1">
+    
+            <img class="img1" src="eventpic1.jpg"><br>
+            <img class="img2" src="eventpic2.jpg"><br>
+            
+        </section>
+    </div>  
+
+    </div>
+          
+       </div>
+       
+          <div class="content">
+             <section class="sect2
+             "> <h2>Need Decoration?<br><span>Dh.DecoEvent</span><br>Always At Your<br> Service</h2>
+              <p class="par">We Offer A Quality Service Recognizes<br>By Several Large Companies.<br> Trust Us, You Will Never Regret It. <h4>Dh.DecoEvent For Today, Dh.DecoEvent Forever<h4></p>
+                <button class="cn"><a href="HTML-CSS FINAL PROJECT 5.HTML">JOIN US</a></button>
+                </section>
+               <br><br><br><br><br><br>
+                    <div class="form">
+                        <h2>LogIn Here</h2>
+                        <input type="Email" name="Email" placeholder="Enter your email"><br>
+                        <input type="PassWord" name="" autocomplete="on" placeholder="Enter your password"><br>
+                        <button  class="btn2" type="button" onclick="alert('Welcome back to your account!')"> <a href="HTML-CSS FINAL PROJECT 3.HTML">LogIn</a></button>
+
+                        <p class="link">Don't have an account?<br>
+                        <a href="HTML-CSS FINAL PROJECT 5.HTML">Sign Up</a></p>
+
+                        <p class="liw">LogIn With:</p>
+                        <div class="icon2">
+                            <a href="https://www.facebook.com"><img src="facebook.webp" width="10%">Fcbk</a>
+                            <a href="https://www.instagram.com"><img src="insta.png" width="10%">Insta</a>
+                            <a href="https://www.google.com"><img src="google.jpg" width="12%">Google</a>
+                        </div>
+                    </div>
+
+                 </div>
+          </div>
+
+
+         <div class="div2">
+        <h5>Dh.DecoEvent <br>is a website where you will find great decoration ideas for all types of event.<br> Here each decoration is beautifully described step by step with the required pictures</h5>
+             </div>
+    </div>
+</body>
+
+</html>
